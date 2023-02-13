@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\LocationAPI\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\projects\\LocationAPI\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\LocationAPI\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\projects\\LocationAPI\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\LocationAPI\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\projects\\LocationAPI\\Model\\Model.csproj": {
-                "projectPath": "D:\\projects\\LocationAPI\\Model\\Model.csproj"
+              "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "D:\\projects\\LocationAPI\\Model\\Model.csproj": {
+    "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\LocationAPI\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\projects\\LocationAPI\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\LocationAPI\\Model\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

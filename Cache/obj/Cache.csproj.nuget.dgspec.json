@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\LocationAPI\\Cache\\Cache.csproj": {}
+    "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj": {}
   },
   "projects": {
-    "D:\\projects\\LocationAPI\\Cache\\Cache.csproj": {
+    "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\LocationAPI\\Cache\\Cache.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj",
         "projectName": "Cache",
-        "projectPath": "D:\\projects\\LocationAPI\\Cache\\Cache.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\LocationAPI\\Cache\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t5O0I0EBAuGRbdrH/reuxOTTuN0LKuu+C6SPlWy9tKpw4flUQLdNXV0yNG3k7DR6EJgy+gsFbX31YzTBQxQqsQ==",
+  "dgSpecHash": "O6kctPlbx7pQ9IC8dOOEMWY/mwgS90DgSJG1txzqHNz3S3IsqgdzdueYi+2Zb3vCcqI6WBicwRY6SG2JlWiplw==",
   "success": true,
-  "projectFilePath": "D:\\projects\\LocationAPI\\Model\\Model.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.spatial\\5.8.5\\system.spatial.5.8.5.nupkg.sha512"
   ],

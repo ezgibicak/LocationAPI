@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iCczkgJnQ5RyukdW9hJr9yBKnxtkAXqJ7qblpa/XHsozHwxhHh1I3BtxNvCQfN5Jx0LYS2dkb6nzb25rf35Tdg==",
+  "dgSpecHash": "R0/FYWMYF9g9vUy99/k9L720d4VH/410RdQTw+vDFc+06cIQ6kBbBWnyDMzuk6NSapCge6EHnrY0UvfzPV1ToA==",
   "success": true,
-  "projectFilePath": "D:\\projects\\LocationAPI\\Cache\\Cache.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",

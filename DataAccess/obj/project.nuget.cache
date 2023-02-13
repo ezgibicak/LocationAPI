@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mDDxa6nkBZ+gbxh4SoFUk0ECNUCkiJ3klgqxTN5BZUQy/QEx25nvnmSLIleMOHA4hAsTBmQ2X3Yn+uDWpxLVow==",
+  "dgSpecHash": "CEHzxvU+W3RdG941CqtVwm7WXATN8gQMvmPnhHbJHlY7uJRJXjrRyrH5utr5cb6DC0Ky/6pc1C74f8omx5S7jA==",
   "success": true,
-  "projectFilePath": "D:\\projects\\LocationAPI\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

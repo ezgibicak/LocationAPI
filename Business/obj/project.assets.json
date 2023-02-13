@@ -3364,11 +3364,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\LocationAPI\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "D:\\projects\\LocationAPI\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\LocationAPI\\Business\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -3389,17 +3389,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\projects\\LocationAPI\\Cache\\Cache.csproj": {
-              "projectPath": "D:\\projects\\LocationAPI\\Cache\\Cache.csproj"
+            "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj"
             },
-            "D:\\projects\\LocationAPI\\Core\\Core.csproj": {
-              "projectPath": "D:\\projects\\LocationAPI\\Core\\Core.csproj"
+            "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Core\\Core.csproj"
             },
-            "D:\\projects\\LocationAPI\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\projects\\LocationAPI\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj"
             },
-            "D:\\projects\\LocationAPI\\Model\\Model.csproj": {
-              "projectPath": "D:\\projects\\LocationAPI\\Model\\Model.csproj"
+            "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj"
             }
           }
         }
