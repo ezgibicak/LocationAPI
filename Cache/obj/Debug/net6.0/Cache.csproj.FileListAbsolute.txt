@@ -1,0 +1,12 @@
+D:\projects\LocationAPI\Cache\bin\Debug\net6.0\Cache.deps.json
+D:\projects\LocationAPI\Cache\bin\Debug\net6.0\Cache.dll
+D:\projects\LocationAPI\Cache\bin\Debug\net6.0\Cache.pdb
+D:\projects\LocationAPI\Cache\obj\Debug\net6.0\Cache.csproj.AssemblyReference.cache
+D:\projects\LocationAPI\Cache\obj\Debug\net6.0\Cache.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\LocationAPI\Cache\obj\Debug\net6.0\Cache.AssemblyInfoInputs.cache
+D:\projects\LocationAPI\Cache\obj\Debug\net6.0\Cache.AssemblyInfo.cs
+D:\projects\LocationAPI\Cache\obj\Debug\net6.0\Cache.csproj.CoreCompileInputs.cache
+D:\projects\LocationAPI\Cache\obj\Debug\net6.0\Cache.dll
+D:\projects\LocationAPI\Cache\obj\Debug\net6.0\refint\Cache.dll
+D:\projects\LocationAPI\Cache\obj\Debug\net6.0\Cache.pdb
+D:\projects\LocationAPI\Cache\obj\Debug\net6.0\ref\Cache.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t5O0I0EBAuGRbdrH/reuxOTTuN0LKuu+C6SPlWy9tKpw4flUQLdNXV0yNG3k7DR6EJgy+gsFbX31YzTBQxQqsQ==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\LocationAPI\\Model\\Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.spatial\\5.8.5\\system.spatial.5.8.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "iCczkgJnQ5RyukdW9hJr9yBKnxtkAXqJ7qblpa/XHsozHwxhHh1I3BtxNvCQfN5Jx0LYS2dkb6nzb25rf35Tdg==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\LocationAPI\\Cache\\Cache.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\stackexchange.redis\\2.6.90\\stackexchange.redis.2.6.90.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
