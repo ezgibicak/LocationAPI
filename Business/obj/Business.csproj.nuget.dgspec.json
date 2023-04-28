@@ -1,48 +1,46 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Business\\Business.csproj": {}
+    "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Business\\Business.csproj": {
+    "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Business\\obj\\",
+        "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\ezgi.bicak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Business\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ezgi.bicak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "D:\\NugetSource": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://klnuget.kaleyazilim.com.tr/nuget": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj"
+              "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Cache\\Cache.csproj": {
+                "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Cache\\Cache.csproj"
               },
-              "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Core\\Core.csproj"
+              "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Core\\Core.csproj"
               },
-              "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj"
+              "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -72,7 +70,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,33 +80,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj": {
+    "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Cache\\Cache.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj",
+        "projectUniqueName": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Cache\\Cache.csproj",
         "projectName": "Cache",
-        "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\obj\\",
+        "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Cache\\Cache.csproj",
+        "packagesPath": "C:\\Users\\ezgi.bicak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Cache\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ezgi.bicak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "D:\\NugetSource": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://klnuget.kaleyazilim.com.tr/nuget": {}
         },
         "frameworks": {
           "net6.0": {
@@ -140,7 +137,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -149,43 +147,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Core\\Core.csproj": {
+    "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Core\\obj\\",
+        "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\ezgi.bicak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ezgi.bicak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "D:\\NugetSource": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://klnuget.kaleyazilim.com.tr/nuget": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Cache\\Cache.csproj"
+              "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Cache\\Cache.csproj": {
+                "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Cache\\Cache.csproj"
               },
-              "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj"
+              "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -211,7 +207,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -220,40 +217,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ezgi.bicak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ezgi.bicak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "D:\\NugetSource": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://klnuget.kaleyazilim.com.tr/nuget": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj"
+              "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Model\\Model.csproj"
               }
             }
           }
@@ -293,7 +288,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -302,33 +298,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj": {
+    "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Model\\obj\\",
+        "projectPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\ezgi.bicak\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ezgi.bicak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "D:\\NugetSource": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://klnuget.kaleyazilim.com.tr/nuget": {}
         },
         "frameworks": {
           "net6.0": {
@@ -357,7 +351,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -366,7 +361,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -23,7 +23,13 @@ IConfiguration configuration = builder.Configuration;
 string redisConnection = configuration.GetValue<string>("Redis");
 string connectionString = configuration.GetValue<string>("ConnectionString");
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
-ConnectionMultiplexer multiplexer = ConnectionMultiplexer.Connect(redisConnection);
+//ConnectionMultiplexer multiplexer = ConnectionMultiplexer.Connect(redisConnection + ";AbortOnConnectFail=false");
+ConfigurationOptions option = new ConfigurationOptions
+{
+    AbortOnConnectFail = false,
+    EndPoints = { redisConnection }
+};
+ConnectionMultiplexer multiplexer = ConnectionMultiplexer.Connect(option);
 builder.Services.AddSingleton<IConnectionMultiplexer>(multiplexer);
 builder.Services.AddScoped<ILocationBusiness, LocationBusiness>();
 builder.Services.AddScoped<ICacheService, CacheService>();

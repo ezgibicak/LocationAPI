@@ -1,0 +1,109 @@
+name: dockercompose7735004478848282056
+services:
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: admin1234
+    image: mcr.microsoft.com/mssql/server:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\ezgi.bicak\Source\Repos\LocationAPI\data
+      target: /var/opt/mssql/data
+      bind:
+        create_host_path: true
+  locationapi:
+    build:
+      context: C:\Users\ezgi.bicak\Source\Repos\LocationAPI
+      dockerfile: LocationAPI/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: LocationAPI
+      target: base
+    container_name: LocationAPI
+    entrypoint:
+    - tail
+    - -f
+    - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+      Redis: localhost:6379
+    image: locationapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net6.0/LocationAPI.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8000"
+      protocol: tcp
+    tty: true
+    volumes:
+    - type: bind
+      source: C:\Users\ezgi.bicak\Source\Repos\LocationAPI\LocationAPI
+      target: /app
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\ezgi.bicak\Source\Repos\LocationAPI
+      target: /src
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\ezgi.bicak\vsdbg\vs2017u5
+      target: /remote_debugger
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\ezgi.bicak\.nuget\packages\
+      target: /root/.nuget/packages
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\ezgi.bicak\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\ezgi.bicak\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+  redis:
+    container_name: redis
+    image: redis:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: redis_data
+      target: /data
+      volume: {}
+networks:
+  default:
+    name: dockercompose7735004478848282056_default
+volumes:
+  redis_data:
+    name: dockercompose7735004478848282056_redis_data

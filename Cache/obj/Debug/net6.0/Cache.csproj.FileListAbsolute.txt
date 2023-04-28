@@ -10,3 +10,15 @@ D:\projects\LocationAPI\Cache\obj\Debug\net6.0\Cache.dll
 D:\projects\LocationAPI\Cache\obj\Debug\net6.0\refint\Cache.dll
 D:\projects\LocationAPI\Cache\obj\Debug\net6.0\Cache.pdb
 D:\projects\LocationAPI\Cache\obj\Debug\net6.0\ref\Cache.dll
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\bin\Debug\net6.0\Cache.deps.json
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\bin\Debug\net6.0\Cache.dll
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\bin\Debug\net6.0\Cache.pdb
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\obj\Debug\net6.0\Cache.csproj.AssemblyReference.cache
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\obj\Debug\net6.0\Cache.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\obj\Debug\net6.0\Cache.AssemblyInfoInputs.cache
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\obj\Debug\net6.0\Cache.AssemblyInfo.cs
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\obj\Debug\net6.0\Cache.csproj.CoreCompileInputs.cache
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\obj\Debug\net6.0\Cache.dll
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\obj\Debug\net6.0\refint\Cache.dll
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\obj\Debug\net6.0\Cache.pdb
+C:\Users\ezgi.bicak\Source\Repos\LocationAPI\Cache\obj\Debug\net6.0\ref\Cache.dll

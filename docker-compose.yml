@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  locationapi:
+    image: ${DOCKER_REGISTRY-}locationapi
+    build:
+      context: .
+      dockerfile: LocationAPI/Dockerfile

@@ -1,0 +1,60 @@
+name: dockercompose7735004478848282056
+services:
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: admin1234
+      UserID: sa
+    image: mcr.microsoft.com/mssql/server:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\ezgi.bicak\Source\Repos\LocationAPI\data
+      target: /var/opt/mssql/data
+      bind:
+        create_host_path: true
+  locationapi:
+    build:
+      context: C:\Users\ezgi.bicak\Source\Repos\LocationAPI
+      dockerfile: LocationAPI/Dockerfile
+    depends_on:
+      redis:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      Redis:redis:6379: null
+    image: locationapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8000"
+      protocol: tcp
+  redis:
+    container_name: redis
+    image: redis:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6379"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: redis_data
+      target: /data
+      volume: {}
+networks:
+  default:
+    name: dockercompose7735004478848282056_default
+volumes:
+  redis_data:
+    name: dockercompose7735004478848282056_redis_data

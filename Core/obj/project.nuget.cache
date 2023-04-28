@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "QDLEtBAEqAaMXh/oiInRpjOb1KXmW2lDLqgK0s9CCcVO3cneigtAQprg4x05sxNkgaNftXhVAOrJH1QF3y0Smg==",
+  "dgSpecHash": "3nd7Wv1S1qJ8lnPI01EYjLPWo5/VfFFLjDJ4avXGB2/ZLw4/VLCf/sJp40I1nP0mOlfXY9bpdRLP3NtlI0NKAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\ezgi.bicak\\Source\\Repos\\LocationAPI\\Core\\Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lenovo\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\stackexchange.redis\\2.6.90\\stackexchange.redis.2.6.90.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\system.spatial\\5.8.5\\system.spatial.5.8.5.nupkg.sha512"
+    "C:\\Users\\ezgi.bicak\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\ezgi.bicak\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "C:\\Users\\ezgi.bicak\\.nuget\\packages\\stackexchange.redis\\2.6.90\\stackexchange.redis.2.6.90.nupkg.sha512",
+    "C:\\Users\\ezgi.bicak\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\ezgi.bicak\\.nuget\\packages\\system.spatial\\5.8.5\\system.spatial.5.8.5.nupkg.sha512"
   ],
   "logs": []
 }
