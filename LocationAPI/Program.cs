@@ -21,10 +21,18 @@ builder.Services.AddSwaggerGen();
 //Redis Configuration
 IConfiguration configuration = builder.Configuration;
 string redisConnection = configuration.GetValue<string>("Redis");
-string connectionString = configuration.GetValue<string>("ConnectionString");
+string connectionString = @"Data Source=localhost\locationsql,1432;Initial Catalog=LocationnAPI;User ID=sa;Password=Admin1234!;TrustServerCertificate=true;";
+
+//string connectionString = configuration.GetValue<string>("ConnectionString");
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
-ConnectionMultiplexer multiplexer = ConnectionMultiplexer.Connect(redisConnection);
-builder.Services.AddSingleton<IConnectionMultiplexer>(multiplexer);
+ConfigurationOptions config = new ConfigurationOptions
+{
+    EndPoints = { redisConnection},
+    AbortOnConnectFail = false
+};
+ConnectionMultiplexer redis = ConnectionMultiplexer.Connect(config);
+
+builder.Services.AddSingleton<IConnectionMultiplexer>(redis);
 builder.Services.AddScoped<ILocationBusiness, LocationBusiness>();
 builder.Services.AddScoped<ICacheService, CacheService>();
 builder.Services.AddScoped<ILocationRepository, LocationRepository>();

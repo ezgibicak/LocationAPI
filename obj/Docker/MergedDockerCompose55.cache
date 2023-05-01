@@ -1,0 +1,63 @@
+name: dockercompose1502185083426693581
+services:
+  locationapi:
+    build:
+      context: C:\Users\Lenovo\source\repos\ezgibicak\LocationAPI
+      dockerfile: LocationAPI/Dockerfile
+    container_name: locationapi
+    depends_on:
+      locationdb:
+        condition: service_started
+      locationsql:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionString:Server: locationsql:1432;Database=LocationAPI;User Id=sa;Password=Admin1234!;
+      Redis: locationdb:6379
+    image: locationapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "7000"
+      protocol: tcp
+  locationdb:
+    container_name: locationdb
+    image: redis:alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6378"
+      protocol: tcp
+    restart: always
+  locationsql:
+    container_name: locationsql
+    environment:
+      ACCEPT_EULA: "true"
+      SA_PASSWORD: Admin1234!
+      UserID: sa
+    image: mcr.microsoft.com/mssql/server:latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1432"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\Lenovo\docker\sql\mssql
+      target: /var/opt/mssql
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Lenovo\docker\sql\sqlserver
+      target: /var/opt/sqlserver
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose1502185083426693581_default

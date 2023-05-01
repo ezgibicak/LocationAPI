@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  locationdb:
+    image: redis:alpine
+
+  locationsql:
+     image: mcr.microsoft.com/mssql/server:2019-latest
+
+  locationapi:
+    image: ${DOCKER_REGISTRY-}locationapi
+    build:
+      context: .
+      dockerfile: LocationAPI/Dockerfile

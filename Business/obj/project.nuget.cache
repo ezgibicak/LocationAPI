@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GPGlFGyEtb4xx5NCiEWyB+RCLupfaJ49cbyHT/PS7cc+9dprB+ulO0ywqNZdWsvMvmcGrRc6evW6Vobae9LENA==",
+  "dgSpecHash": "HQLzQLqHY8uEF5C8LrjS9+xz9lQQcaTzx+iFLOBBCb6csa5VyOcthYNtB/13o7piTJzzw12cO6wyjPCv71oEGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Source\\Repos\\ezgibicak\\LocationAPI\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\ezgibicak\\LocationAPI\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
