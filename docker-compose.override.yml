@@ -15,16 +15,13 @@ services:
       UserID: "sa"
     ports:
       - "1432:1433"
-    #volumes:
-    #- ~/docker/sql/mssql/:/var/opt/mssql/
-    #- ~/docker/sql/sqlserver/:/var/opt/sqlserver/ 
 
   locationapi:
     container_name: locationapi
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - "Redis=locationdb:6379"
-      - "ConnectionString:Server=locationsql:1432;Database=LocationAPI;User Id=sa;Password=Admin1234!;TrustServerCertificate=true"
+      - "ConnectionString:Data Source=localhost\\locationsql,1432;Initial Catalog=LocationnAPI;User ID=sa;Password=Admin1234!;TrustServerCertificate=true;"
     depends_on:
     - locationdb
     - locationsql

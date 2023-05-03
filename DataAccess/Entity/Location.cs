@@ -11,7 +11,6 @@ namespace DataAccess.Entity
     [Table("Location")]
     public class Location
     {
-        [Key]
         public int ID { get; set; }
         public int CityId { get; set; }
         public long DistrictId { get; set; }

@@ -21,9 +21,9 @@ builder.Services.AddSwaggerGen();
 //Redis Configuration
 IConfiguration configuration = builder.Configuration;
 string redisConnection = configuration.GetValue<string>("Redis");
-string connectionString = @"Data Source=localhost\locationsql,1432;Initial Catalog=LocationnAPI;User ID=sa;Password=Admin1234!;TrustServerCertificate=true;";
+//string connectionString = @"Data Source=localhost\locationsql,1432;Initial Catalog=LocationnAPI;User ID=sa;Password=Admin1234!;TrustServerCertificate=true;";
 
-//string connectionString = configuration.GetValue<string>("ConnectionString");
+string connectionString = configuration.GetValue<string>("ConnectionString");
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
 ConfigurationOptions config = new ConfigurationOptions
 {

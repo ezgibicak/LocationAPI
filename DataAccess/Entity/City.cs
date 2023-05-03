@@ -12,7 +12,6 @@ namespace DataAccess.Entity
     [Table("City")]
     public class City
     {
-        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         //public Geometry? Coordinate { get; set; }
