@@ -1,0 +1,53 @@
+name: dockercompose1502185083426693581
+services:
+  locationapi:
+    build:
+      context: C:\Users\Lenovo\source\repos\ezgibicak\LocationAPI
+      dockerfile: LocationAPI/Dockerfile
+    container_name: locationapi
+    depends_on:
+      locationdb:
+        condition: service_started
+      locationsql:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionString:Server: locationsql;Database=LocationAPI;User Id=ezgi;Password=ADMIN1234;TrustServerCertificate=true;
+      Redis: locationdb:6379
+    image: locationapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "7000"
+      protocol: tcp
+  locationdb:
+    container_name: locationdb
+    image: redis:alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 6379
+      published: "6378"
+      protocol: tcp
+    restart: always
+  locationsql:
+    container_name: locationsql
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: ADMIN1234
+      UserID: ezgi
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1433"
+      protocol: tcp
+    restart: always
+networks:
+  default:
+    name: dockercompose1502185083426693581_default
